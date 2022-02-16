@@ -11131,6 +11131,8 @@ textarea.form-control-lg {
 }
 .carousel {
   height: 40vh;
+  margin: 0px 25px;
+  z-index: -1;
 }
 .carousel img {
   background: linear-gradient(top, carousel_opacity);
