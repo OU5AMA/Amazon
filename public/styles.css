@@ -11118,5 +11118,22 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+@keyframes carousel_opacity {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.carousel {
+  height: 40vh;
+}
+.carousel img {
+  background: linear-gradient(top, carousel_opacity);
+}
 
 /*# sourceMappingURL=styles.css.map */
